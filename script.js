@@ -102,8 +102,8 @@ function setLanguage(lang) {
   const cvLink = document.querySelector('a[data-i18n="download_cv"]');
   if (cvLink) {
     cvLink.href = lang === "de"
-      ? "Aparna_Dharmalingam%20Lebenslauf%20Deutsch.pdf"
-      : "Aparna_Dharmalingam_CV_English.pdf";
+      ? "Aparna_Dharmalingam_Lebenslauf_Deutsch.pdf?v=20260903-5"
+      : "Aparna_Dharmalingam_CV_English.pdf?v=20260903-5";
   }
 
   document.title = lang === "de"

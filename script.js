@@ -22,15 +22,11 @@ const translations = {
     safestop_label: "Personal Project",
     safestop_desc: "A personal safety-engineering project exploring an AI-assisted FMEA workflow with structured outputs and human review.",
     view_project: "View project",
-    herkules_project_label: "Autonomous Vehicle Project",
-    herkules_project_desc: "ROS- and Python-based work on perception and planning modules, sensor integration, and vehicle-level troubleshooting for an autonomous competition vehicle.",
-    electro_project_label: "Technical Club Project",
-    electro_project_desc: "Technical club activities including PCB design and manufacturing workshops and a classroom automation project.",
     sabs_project_label: "Bachelor Project",
     research_title: "Research & Academic Work",
     masters_label: "Master's Thesis · In preparation",
-    masters_title: "Developing a Criticality Taxonomy for Situation Analysis in Safety Engineering",
-    masters_desc: "Literature-based identification and structuring of criticality factors for driving situations, with planned application in SentryCraft for systematic scenario analysis.",
+    masters_title: "Master's Thesis – In Preparation",
+    masters_desc: "LLM-supported HARA generation using structured safety data and evaluation against an industrial HARA.",
     bachelors_label: "Bachelor's Thesis · Published",
     bachelors_desc: "Modelled, developed, and validated a semi-electronic braking system on the Smart Trike hybrid vehicle.",
     skills_title: "Skills",
@@ -68,15 +64,11 @@ const translations = {
     safestop_label: "Persönliches Projekt",
     safestop_desc: "Ein persönliches Safety-Engineering-Projekt zur Erprobung eines KI-unterstützten FMEA-Workflows mit strukturierten Ergebnissen und menschlicher Prüfung.",
     view_project: "Projekt ansehen",
-    herkules_project_label: "Projekt Autonomes Fahrzeug",
-    herkules_project_desc: "ROS- und Python-basierte Arbeit an Modulen für Wahrnehmung und Planung, Sensorintegration und Fehlersuche an einem autonomen Wettbewerbsfahrzeug.",
-    electro_project_label: "Technisches Hochschulprojekt",
-    electro_project_desc: "Technische Club-Aktivitäten mit Workshops zu PCB-Design und -Fertigung sowie einem Classroom-Automation-Projekt.",
     sabs_project_label: "Bachelorprojekt",
     research_title: "Forschung & akademische Arbeiten",
     masters_label: "Masterarbeit · In Vorbereitung",
-    masters_title: "Entwicklung einer Kritikalitätstaxonomie für die Situationsanalyse in der Sicherheitstechnik",
-    masters_desc: "Literaturbasierte Identifikation und Strukturierung von Kritikalitätsfaktoren für Fahrsituationen mit geplanter Anwendung in SentryCraft zur systematischen Szenarioanalyse.",
+    masters_title: "Masterarbeit – In Vorbereitung",
+    masters_desc: "LLM-gestützte HARA-Generierung auf Basis strukturierter Safety-Daten und Bewertung anhand einer industriellen HARA.",
     bachelors_label: "Bachelorarbeit · Veröffentlicht",
     bachelors_desc: "Modellierung, Entwicklung und Validierung eines semi-elektronischen Bremssystems für das Smart-Trike-Hybridfahrzeug.",
     skills_title: "Kenntnisse",
@@ -110,7 +102,7 @@ function setLanguage(lang) {
   const cvLink = document.querySelector('a[data-i18n="download_cv"]');
   if (cvLink) {
     cvLink.href = lang === "de"
-      ? "Aparna_Dharmalingam_Lebenslauf_Deutsch.pdf"
+      ? "Aparna_Dharmalingam%20Lebenslauf%20Deutsch.pdf"
       : "Aparna_Dharmalingam_CV_English.pdf";
   }
 
